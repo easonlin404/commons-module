@@ -23,5 +23,6 @@
 	
 	<modules>
 		<module>MutiThread</module>
+		<module>spring-web</module>
 	</modules>
 </project>
