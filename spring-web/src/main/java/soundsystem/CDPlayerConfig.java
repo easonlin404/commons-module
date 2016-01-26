@@ -21,10 +21,10 @@ public class CDPlayerConfig {
 		return new CDPlayer(compactDisc);
 	}
 
-	@Bean
-	public CDPlayer anotherCDPlayer() {
-		return new CDPlayer(sgtPeppers());
-	}
+//	@Bean
+//	public CDPlayer anotherCDPlayer() {
+//		return new CDPlayer(sgtPeppers());
+//	}
 
 	/*
 	 * //@Bean public CompactDisc randomBeatlesCD() { int choice = (int)
