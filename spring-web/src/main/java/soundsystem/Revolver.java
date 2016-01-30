@@ -9,4 +9,10 @@ public class Revolver implements CompactDisc {
 		System.out.println("Playing Revolver");
 	}
 
+	@Override
+	public void playTrack(int track) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

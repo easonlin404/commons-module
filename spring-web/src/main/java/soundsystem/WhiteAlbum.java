@@ -9,4 +9,10 @@ public class WhiteAlbum implements CompactDisc {
 		System.out.println("Playing WhiteAlbum");
 	}
 
+	@Override
+	public void playTrack(int track) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

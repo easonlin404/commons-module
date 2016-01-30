@@ -15,6 +15,7 @@ public class ExpressiveConfig {
 
 	@Bean
 	public BlankDisc disc() {
-		return new BlankDisc(env.getProperty("disc.title"), env.getProperty("disc.artist"));
+		return null;
+		//return new BlankDisc(env.getProperty("disc.title"), env.getProperty("disc.artist"));
 	}
 }
