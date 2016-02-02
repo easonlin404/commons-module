@@ -12,7 +12,7 @@ import org.springframework.jndi.JndiObjectFactoryBean;
 public class ProductionProfileConfig {
 	
 	/**
-	 * server¥Î¡A¨Ï¥ÎJNDI
+	 * serverä½¿ç”¨JNDI
 	 * 
 	 * @return
 	 */

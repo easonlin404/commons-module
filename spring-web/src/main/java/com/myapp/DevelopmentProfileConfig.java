@@ -13,7 +13,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 public class DevelopmentProfileConfig {
 
 	/**
-	 * local ¾ã¦X´ú¸Õ¥Î¡A¨Ï¥Îembedded DB
+	 * local ä½¿ç”¨embedded DB
 	 * 
 	 * @return
 	 */
