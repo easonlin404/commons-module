@@ -10,7 +10,6 @@ public class ServiceTset {
 		Add add = new Add() {
 			@Override
 			public int process() {
-				//¥h¬dDB
 				return 0;
 			}
 		};

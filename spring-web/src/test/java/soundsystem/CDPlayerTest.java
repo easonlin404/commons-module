@@ -9,7 +9,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * 測試能不能透過Spring的機制，自動wired bean
  * @author TV6014
  *
  */
