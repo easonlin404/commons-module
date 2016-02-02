@@ -88,6 +88,15 @@
 			<artifactId>logback-classic</artifactId>
 			<version>${logback-version}</version>
 		</dependency>
+
+		<!-- Apache Commons Lang -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+
+
 		<!-- JSR 330: Dependency Injection for Java. <dependency> <groupId>javax.inject</groupId> 
 			<artifactId>javax.inject</artifactId> <version>1</version> </dependency> -->
 
