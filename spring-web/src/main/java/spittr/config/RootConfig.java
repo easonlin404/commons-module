@@ -19,17 +19,23 @@ import spittr.data.SpittleRepository;
 		@Filter(type = FilterType.ANNOTATION, value = EnableWebMvc.class) })
 public class RootConfig {
 	
-//	@Bean
-//	public SpittleRepository spittleRepository() {
-//		return new SpittleRepository() {
-//			
-//			@Override
-//			public List<Spittle> findSpittles(long max, int count) {
-//				// TODO Auto-generated method stub
-//				return createSpittleList(20);
-//			}
-//		};
-//	}
+	@Bean
+	public SpittleRepository spittleRepository() {
+		return new SpittleRepository() {
+			
+			@Override
+			public List<Spittle> findSpittles(long max, int count) {
+				// TODO Auto-generated method stub
+				return createSpittleList(20);
+			}
+
+			@Override
+			public Spittle findOne(long id) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+	}
 	
 	private List<Spittle> createSpittleList(int count) {
 		List<Spittle> spittles = new ArrayList<Spittle>();
