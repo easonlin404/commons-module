@@ -69,7 +69,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- Mock objects library for java -->
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -77,7 +77,7 @@
 			<version>2.0.41-beta</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- http://stefanbirkner.github.io/system-rules -->
 		<dependency>
 			<groupId>com.github.stefanbirkner</groupId>
@@ -102,6 +102,13 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.4</version>
+		</dependency>
+		
+		<!-- Bean Validation API  -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
 		</dependency>
 
 
