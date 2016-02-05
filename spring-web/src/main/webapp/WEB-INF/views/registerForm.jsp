@@ -1,3 +1,4 @@
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="sf" %>
 <%@ page session="false"%>
 <html>
 <head>
@@ -7,13 +8,18 @@
 </head>
 <body>
 	<h1>Register</h1>
-	<form method="POST">
-		First Name: <input type="text" name="firstName" /><br />
-		Last Name: <input type="text" name="lastName" /><br /> 
-		Username: <input type="text" name="username" /><br /> 
-		Password: <input type="password" name="password" /><br />
-		
+	<sf:form method="POST" commandName="spitter">
+		First Name: <sf:input path="firstName" />
+		<sf:errors path="firstName" /><br />
+		Last Name: <sf:input path="lastName" />
+		<br />
+		Email: <sf:input path="email" />
+		<br />
+		Username: <sf:input path="username" />
+		<br />
+		Password: <sf:password path="password" />
+		<br />
 		<input type="submit" value="Register" />
-	</form>
+	</sf:form>
 </body>
 </html>
